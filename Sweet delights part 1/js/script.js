@@ -1,0 +1,1 @@
+console.log("Sweet Delights Bakery site loaded.");

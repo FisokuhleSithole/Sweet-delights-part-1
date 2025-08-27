@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+header {
+    background-color: #F8B195;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6C5B7B;
+}
+
+.hero {
+    background: url('../images/hero-placeholder.jpg') no-repeat center center/cover;
+    padding: 5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #F8B195;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* About Page */
+.about-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.about-container h2,
+.about-container h3 {
+    color: #6C5B7B;
+    margin-top: 1.5rem;
+}
+.about-container p {
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+
+
+/* Contact Page */
+.contact-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contact-container h2,
+.contact-container h3 {
+    text-align: center;
+    color: #6C5B7B;
+    margin-top: 1rem;
+}
+
+.contact-container p {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-container label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-container button {
+    background-color: #F8B195;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-container button:hover {
+    background-color: #6C5B7B;
+}
+
